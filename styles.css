@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+p{
+    font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1
+{
+    font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url("home.jpg"); /* Set the background image */
+    background-size: cover; /* Ensure the background image covers the entire header */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center align content */
+}
+
+
+header h1 {
+    font-size: 120px; /* Font size for the main heading */
+    margin: 10px 0; /* Margin to separate from other elements */
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header h2 {
+    font-size: 18px; /* Font size for the subheading */
+    margin: 5px 0; /* Margin to separate from other elements */
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header img {
+    width: 100px; 
+    margin-top: 10px; 
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+}
+
+.sidebar {
+    background: #f4f4f4;
+    width: 200px;
+    padding: 10px;
+}
+
+.content {
+    flex: 1;
+    padding: 10px;
+}
+
+.advertisement {
+    background: #f4f4f4;
+    text-align: center;
+    width: 200px;
+    padding-left: 30px; 
+    float: right; 
+}
+
+.advertisement img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+}
